@@ -18,7 +18,7 @@ class CPU {
 
 	getRegister(name) {
 		if (!(name in this.registerMap)) {
-			throw new Error(`getregister: Register doesn't exist '${name}'`);
+			throw new Error(`getRegister: Register doesn't exist '${name}'`);
 		}
 		return this.registersNames.getUint16(this.regsiterMap[name]);
 	}
