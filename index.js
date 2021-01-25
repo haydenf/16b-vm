@@ -25,4 +25,10 @@ writeableBytes[7] = 2; // r1 index
 writeableBytes[8] = 3; // r2 index
 
 cpu.debug();
+
 cpu.step();
+cpu.debug();
+cpu.step();
+cpu.debug();
+cpu.step();
+cpu.debug();
